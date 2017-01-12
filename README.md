@@ -76,12 +76,12 @@ A tutorial can be found on the [Hamcrest site](https://code.google.com/archive/p
 
 Available Matchers
 ------------------
-* [Array](../blob/hamcrest-example/README.md#array)
-* [Collection](../blob/hamcrest-example/README.md#collection)
-* [Object](../blob/hamcrest-example/README.md#object)
-* [Numbers](../blob/hamcrest-example/README.md#numbers)
-* [Type checking](../blob/hamcrest-example/README.md#type-checking)
-* [XML](../blob/hamcrest-example/README.md#xml)
+* [Array](../hamcrest-example/README.md#array)
+* [Collection](../hamcrest-example/README.md#collection)
+* [Object](../hamcrest-example/README.md#object)
+* [Numbers](../hamcrest-example/README.md#numbers)
+* [Type checking](../hamcrest-example/README.md#type-checking)
+* [XML](../hamcrest-example/README.md#xml)
 
 ### Array
 
