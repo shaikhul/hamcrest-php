@@ -76,6 +76,13 @@ A tutorial can be found on the [Hamcrest site](https://code.google.com/archive/p
 
 Available Matchers
 ------------------
+* [Array](../blob/hamcrest-example/README.md#array)
+* [Collection](../blob/hamcrest-example/README.md#collection)
+* [Object](../blob/hamcrest-example/README.md#object)
+* [Numbers](../blob/hamcrest-example/README.md#numbers)
+* [Type checking](../blob/hamcrest-example/README.md#type-checking)
+* [XML](../blob/hamcrest-example/README.md#xml)
+
 ### Array
 
 * `anArray` - evaluates an array
@@ -138,7 +145,7 @@ assertThat([], emptyArray());
 assertThat([1], nonEmptyArray());
 ```
 
-### Collection - traversable|Iterable 
+### Collection 
 
 * `emptyTraversable` - check if traversable is empty
 ```php
@@ -160,7 +167,7 @@ assertThat($non_empty_it, traversableWithSize(count(range(1, 10))));
 `
 ```
 
-### Core - Matcher combination
+### Core
 
 * `allOf` - Evaluates to true only if ALL of the passed in matchers evaluate to true.
 ```php
@@ -385,7 +392,7 @@ assertThat("foo", endsWith("oo"));
 assertThat("bar", startsWith("ba"));
 ```
 
-### Type checking
+### Type-checking
 
 * `arrayValue` - check array type
 ```php
