@@ -408,7 +408,7 @@ assertThat(true, booleanValue());
 * `callableValue` - check if value is callable
 ```php
 $func = function () {};
-assertThat($func, callableValue($func));
+assertThat($func, callableValue());
 ```
 * `doubleValue`
 ```php

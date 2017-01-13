@@ -226,7 +226,7 @@ assertThat(false, boolValue());
 
 // callableValue
 $func = function () {};
-assertThat($func, callableValue($func));
+assertThat($func, callableValue());
 
 // doubleValue
 assertThat(3.14, doubleValue());
